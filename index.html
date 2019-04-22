@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+	</head>
+
+	<body>
+		<div id="wrap" class="wrap">
+			<div class="top">
+				<div class="headerview">
+					<span class="headerview-left"><img src="img/9.png"></span>
+					<h1 class="headerview-zhong">{{headerviewMessage}}</h1>
+					<span class="headerview-right"><img src="img/10.png"></span>
+				</div>
+			</div>
+			<div class="main">
+				<div class="suosu">
+					<input type="search" class="suosu-input" placeholder="景点名称/目的地/游玩主题" />
+				</div>
+				<div class="my-zhong-tupian">
+
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><img src="img/1.jpg" /></div>
+							<div class="swiper-slide"><img src="img/2.jpg" /></div>
+							<div class="swiper-slide"><img src="img/3.jpg" /></div>
+							<div class="swiper-slide"><img src="img/4.jpg" /></div>
+							<div class="swiper-slide"><img src="img/5.jpg" /></div>
+						</div>
+						<!-- 如果需要分页器 -->
+						<div class="swiper-pagination"></div>
+					</div>
+				</div>
+				<div class="my-zhong-wenzi">
+					<ul class="my-wenzi-list">
+						<li><span><img src="img/11.png"></span>
+							<p>{{jiandianMessage}}</p>
+						</li>
+						<li><span><img src="img/12.png"></span>
+							<p>{{zhutiMessage}}</p>
+						</li>
+						<li><span><img src="img/13.png"></span>
+							<p>{{shanghuaMessage}}</p>
+						</li>
+						<li><span><img src="img/14.png"></span>
+							<p>{{dongzhiMessage}}</p>
+						</li>
+						<li><span><img src="img/15.png"></span>
+							<p>{{hanyangMessage}}</p>
+						</li>
+						<li><span><img src="img/16.png"></span>
+							<p>{{cityMessage}}</p>
+						</li>
+						<li><span><img src="img/17.png"></span>
+							<p>{{cityGongyuan}}</p>
+						</li>
+						<li><span><img src="img/18.png"></span>
+							<p>{{gaokongMessage}}</p>
+						</li>
+					</ul>
+				</div>
+				<div class="woFujin">
+					<div class="woFujin-left"><span>{{FujinMessage}}</span></div>
+					<div class="woFujin-zhong"></div>
+					<div class="woFujin-right"><img src="img/19.png"></div>
+				</div>
+
+				<div class="woFujin-xia">
+					
+						<img src="img/6.jpg" class="woFujin-xia-one"/>
+						<img src="img/7.jpg" class="woFujin-xia-two"/>
+						<img src="img/8.jpg" class="woFujin-xia-three"/>
+					
+				</div>
+        <div class="benDi">
+						<div class="benDi-top">
+							<img src="img/huomiao.jpg"/>
+							<span>本地人气榜</span>
+						</div>
+						<div class="bendi-tupian">
+							<div class="swiper-container-two">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><img src="img/20.jpg" />
+							<p>{{p1Message}}<span>{{span1Message}}</span></p>
+							</div>
+							<div class="swiper-slide"><img src="img/21.jpg" /><p>{{p2Message}}<span>{{span2Message}}</span></p></div>
+							<div class="swiper-slide"><img src="img/22.jpg" /><p>{{p3Message}}<span>{{span3Message}}</span></p></div>
+							<div class="swiper-slide"><img src="img/23.jpg" /><p>{{p4Message}}<span>{{span4Message}}</span></p></div>
+							<div class="swiper-slide"><img src="img/24.jpg" /><p>{{p5Message}}<span>{{span5Message}}</span></p></div>
+							<div class="swiper-slide"><img src="img/25.jpg" /><p>{{p6Message}}<span>{{span6Message}}</span></p></div>
+							<div class="swiper-slide"><img src="img/26.jpg" /><p>{{p7Message}}<span>{{span7Message}}</span></p></div>
+							<div class="swiper-slide"><img src="img/27.jpg" /><p>{{p8Message}}<span>{{span8Message}}</span></p></div>
+						</div>
+						<!-- 如果需要分页器 -->
+					</div>
+
+                		
+                	</div>
+                </div>
+                  <div class="like">
+                  	 <div class="like-top">
+                		   		<img src="img/xin.png"/>
+                				<span>{{likeMessage}}</span>
+                	 </div>
+                  	 <ul class="like-list">
+                  	 	<li class="list-one">{{remenMessage}}</li>
+                  	 	<li class="list-two">{{dayMessage}}</li>
+                  	 	<li class="list-three">{{teseMessage}}</li>
+                  	 </ul>
+                  	 <div class="remen">
+                  	 <div class="like-tupian-one">
+                  	 	 <div class="like-tupian-one-left">
+                  	 	 	<img src="img/d1.jpg"/>
+                  	 	 </div>
+                  	 	 <div class="like-tupian-one-right">
+                  	 	 	<p class="p-one">{{zhoupu}}</p>
+                  	 	 	<span class="span-one">{{shanghan}}</span>
+                  	 	 	<span class="span-two">4.3分<span class="span-three">已售1.5万+</span></span>
+                  	 	 	<div class="xiaofangkuan"><span class="span-four">{{mingri}}</span>
+                  	 	 	 <span class="span-four">{{qinzi}}</span>
+                  	 	 	 <span class="span-four">{{ziran}}</span>
+                  	 	 	</div>
+                  	 	 	 <p class="span-five">￥<span>50起</span></p>
+                  	 	 </div> 	
+                  	 </div>
+                  	   	  <div class="like-tupian-one">
+                  	 	 <div class="like-tupian-one-left">
+                  	 	 	<img src="img/29.jpg"/>
+                  	 	 </div>
+                  	 	 <div class="like-tupian-one-right">
+                  	 	 	<p class="p-one">{{chenshan}}</p>
+                  	 	 	<span class="span-one">{{shanghan}}</span>
+                  	 	 	<span class="span-two">4.6分<span class="span-three">已售2.1万+</span></span>
+                  	 	 	<div class="xiaofangkuan"><span class="span-four">{{mingri}}</span>
+                  	 	 	 <span class="span-four">{{qinzi}}</span>
+                  	 	 	 <span class="span-four">{{ziran}}</span>
+                  	 	 	</div>
+                  	 	 	 <p class="span-five">￥<span>60起</span></p>
+                  	 	 </div> 	
+                  	 </div>
+                  	  <div class="like-tupian-one">
+                  	 	 <div class="like-tupian-one-left">
+                  	 	 	<img src="img/30.jpg"/>
+                  	 	 </div>
+                  	 	 <div class="like-tupian-one-right">
+                  	 	 	<p class="p-one">{{dongwu}}</p>
+                  	 	 	<span class="span-one">{{shanghan}}</span>
+                  	 	 	<span class="span-two">4.6分<span class="span-three">已售7.2万+</span></span>
+                  	 	 	<div class="xiaofangkuan"><span class="span-four">{{mingri}}</span>
+                  	 	 	 <span class="span-four">{{qinzi}}</span>
+                  	 	 	 <span class="span-four">{{ziran}}</span>
+                  	 	 	</div>
+                  	 	 	 <p class="span-five">￥<span>38起</span></p>
+                  	 	 </div> 	
+                  	 </div>
+                  	  <div class="like-tupian-one">
+                  	 	 <div class="like-tupian-one-left">
+                  	 	 	<img src="img/31.jpg"/>
+                  	 	 </div>
+                  	 	 <div class="like-tupian-one-right">
+                  	 	 	<p class="p-one">广富林文化遗址</p>
+                  	 	 	<span class="span-one">{{shanghan}}</span>
+                  	 	 	<span class="span-two">4.3分<span class="span-three">已售1.5万+</span></span>
+                  	 	 	<div class="xiaofangkuan"><span class="span-four">{{mingri}}</span>
+                  	 	 	 <span class="span-four">{{qinzi}}</span>
+                  	 	 	 <span class="span-four">{{ziran}}</span>
+                  	 	 	</div>
+                  	 	 	 <p class="span-five">￥<span>50起</span></p>
+                  	 	 </div> 	
+                  	 </div>
+                  	  <div class="like-tupian-one">
+                  	 	 <div class="like-tupian-one-left">
+                  	 	 	<img src="img/32.jpg"/>
+                  	 	 </div>
+                  	 	 <div class="like-tupian-one-right">
+                  	 	 	<p class="p-one">浦江郊野公园</p>
+                  	 	 	<span class="span-one">{{shanghan}}</span>
+                  	 	 	<span class="span-two">4.3分<span class="span-three">已售1.5万+</span></span>
+                  	 	 	<div class="xiaofangkuan"><span class="span-four">{{mingri}}</span>
+                  	 	 	 <span class="span-four">{{qinzi}}</span>
+                  	 	 	 <span class="span-four">{{ziran}}</span>
+                  	 	 	</div>
+                  	 	 	 <p class="span-five">￥<span>50起</span></p>
+                  	 	 </div> 	
+                  	 </div>
+                  	  <div class="like-tupian-one">
+                  	 	 <div class="like-tupian-one-left">
+                  	 	 	<img src="img/33.jpg"/>
+                  	 	 </div>
+                  	 	 <div class="like-tupian-one-right">
+                  	 	 	<p class="p-one">上海自然博物馆</p>
+                  	 	 	<span class="span-one">{{shanghan}}</span>
+                  	 	 	<span class="span-two">4.3分<span class="span-three">已售1.5万+</span></span>
+                  	 	 	<div class="xiaofangkuan"><span class="span-four">{{mingri}}</span>
+                  	 	 	 <span class="span-four">{{qinzi}}</span>
+                  	 	 	 <span class="span-four">{{ziran}}</span>
+                  	 	 	</div>
+                  	 	 	 <p class="span-five">￥<span>50起</span></p>
+                  	 	 </div> 	
+                  	 </div>
+                  	 <div class="like-tupian-one">
+                  	 	 <div class="like-tupian-one-left">
+                  	 	 	<img src="img/34.jpg"/>
+                  	 	 </div>
+                  	 	 <div class="like-tupian-one-right">
+                  	 	 	<p class="p-one">东方绿洲</p>
+                  	 	 	<span class="span-one">{{shanghan}}</span>
+                  	 	 	<span class="span-two">4.3分<span class="span-three">已售1.5万+</span></span>
+                  	 	 	<div class="xiaofangkuan"><span class="span-four">{{mingri}}</span>
+                  	 	 	 <span class="span-four">{{qinzi}}</span>
+                  	 	 	 <span class="span-four">{{ziran}}</span>
+                  	 	 	</div>
+                  	 	 	 <p class="span-five">￥<span>50起</span></p>
+                  	 	 </div> 	
+                  	 </div>
+                  	 <div class="like-tupian-one">
+                  	 	 <div class="like-tupian-one-left">
+                  	 	 	<img src="img/35.jpg"/>
+                  	 	 </div>
+                  	 	 <div class="like-tupian-one-right">
+                  	 	 	<p class="p-one">顾村公园</p>
+                  	 	 	<span class="span-one">{{shanghan}}</span>
+                  	 	 	<span class="span-two">4.3分<span class="span-three">已售1.5万+</span></span>
+                  	 	 	<div class="xiaofangkuan"><span class="span-four">{{mingri}}</span>
+                  	 	 	 <span class="span-four">{{qinzi}}</span>
+                  	 	 	 <span class="span-four">{{ziran}}</span>
+                  	 	 	</div>
+                  	 	 	 <p class="span-five">￥<span>50起</span></p>
+                  	 	 </div> 	
+                  	 </div>
+                  		 <div class="like-tupian-one">
+                  	 	 <div class="like-tupian-one-left">
+                  	 	 	<img src="img/36.jpg"/>
+                  	 	 </div>
+                  	 	 <div class="like-tupian-one-right">
+                  	 	 	<p class="p-one">{{neirong}}</p>
+                  	 	 	<span class="span-one">{{shanghan}}</span>
+                  	 	 	<span class="span-two">4.3分<span class="span-three">已售1.5万+</span></span>
+                  	 	 	<div class="xiaofangkuan"><span class="span-four">{{mingri}}</span>
+                  	 	 	 <span class="span-four">{{qinzi}}</span>
+                  	 	 	 <span class="span-four">{{ziran}}</span>
+                  	 	 	</div>
+                  	 	 	 <p class="span-five">￥<span>50起</span></p>
+                  	 	 </div> 	
+                  	 </div>
+                  	
+                  	<div class="like-tupian-one">
+                  	 	 <div class="like-tupian-one-left">
+                  	 	 	<img src="img/41.jpg"/>
+                  	 	 </div>
+                  	 	 <div class="like-tupian-one-right">
+                  	 	 	<p class="p-one">黄浦江游览(十六铺码头)</p>
+                  	 	 	<span class="span-one">{{shanghan}}</span>
+                  	 	 	<span class="span-two">4.3分<span class="span-three">已售1.5万+</span></span>
+                  	 	 	<div class="xiaofangkuan"><span class="span-four">{{mingri}}</span>
+                  	 	 	 <span class="span-four">{{qinzi}}</span>
+                  	 	 	 <span class="span-four">{{ziran}}</span>
+                  	 	 	</div>
+                  	 	 	 <p class="span-five">￥<span>50起</span></p>
+                  	 	 </div> 	
+                  	 </div>
+                  	<div class="like-tupian-one">
+                  	 	 <div class="like-tupian-one-left">
+                  	 	 	<img src="img/42.jpg"/>
+                  	 	 </div>
+                  	 	 <div class="like-tupian-one-right">
+                  	 	 	<p class="p-one">上海海湾国家森林公园</p>
+                  	 	 	<span class="span-one">{{shanghan}}</span>
+                  	 	 	<span class="span-two">4.3分<span class="span-three">已售1.5万+</span></span>
+                  	 	 	<div class="xiaofangkuan"><span class="span-four">{{mingri}}</span>
+                  	 	 	 <span class="span-four">{{qinzi}}</span>
+                  	 	 	 <span class="span-four">{{ziran}}</span>
+                  	 	 	</div>
+                  	 	 	 <p class="span-five">￥<span>50起</span></p>
+                  	 	 </div> 	
+                  	 </div>
+                  	<div class="like-tupian-one">
+                  	 	 <div class="like-tupian-one-left">
+                  	 	 	<img src="img/43.jpg"/>
+                  	 	 </div>
+                  	 	 <div class="like-tupian-one-right">
+                  	 	 	<p class="p-one">东平国家森林公园</p>
+                  	 	 	<span class="span-one">{{shanghan}}</span>
+                  	 	 	<span class="span-two">4.3分<span class="span-three">已售1.5万+</span></span>
+                  	 	 	<div class="xiaofangkuan"><span class="span-four">{{mingri}}</span>
+                  	 	 	 <span class="span-four">{{qinzi}}</span>
+                  	 	 	 <span class="span-four">{{ziran}}</span>
+                  	 	 	</div>
+                  	 	 	 <p class="span-five">￥<span>50起</span></p>
+                  	 	 </div> 	
+                  	 </div>
+                  	<div class="like-tupian-one">
+                  	 	 <div class="like-tupian-one-left">
+                  	 	 	<img src="img/44.jpg"/>
+                  	 	 </div>
+                  	 	 <div class="like-tupian-one-right">
+                  	 	 	<p class="p-one">豫园</p>
+                  	 	 	<span class="span-one">{{shanghan}}</span>
+                  	 	 	<span class="span-two">4.3分<span class="span-three">已售1.5万+</span></span>
+                  	 	 	<div class="xiaofangkuan"><span class="span-four">{{mingri}}</span>
+                  	 	 	 <span class="span-four">{{qinzi}}</span>
+                  	 	 	 <span class="span-four">{{ziran}}</span>
+                  	 	 	</div>
+                  	 	 	 <p class="span-five">￥<span>50起</span></p>
+                  	 	 </div> 	
+                  	 </div>
+                  	<div class="like-tupian-one">
+                  	 	 <div class="like-tupian-one-left">
+                  	 	 	<img src="img/45.jpg"/>
+                  	 	 </div>
+                  	 	 <div class="like-tupian-one-right">
+                  	 	 	<p class="p-one">锦江乐园</p>
+                  	 	 	<span class="span-one">{{shanghan}}</span>
+                  	 	 	<span class="span-two">4.3分<span class="span-three">已售1.5万+</span></span>
+                  	 	 	<div class="xiaofangkuan"><span class="span-four">{{mingri}}</span>
+                  	 	 	 <span class="span-four">{{qinzi}}</span>
+                  	 	 	 <span class="span-four">{{ziran}}</span>
+                  	 	 	</div>
+                  	 	 	 <p class="span-five">￥<span>50起</span></p>
+                  	 	 </div> 	
+                  	 </div>
+                    <div class="renmen-xia">查看上海全部景点门票</div>      	
+          </div>        	
+                  	<div class="like-yiri">
+                  		<div class="like-yiri-title">
+                  			<span>————</span>
+                  			热门一日游
+                  		<span>————</span></div>
+                  		
+                  <div class="like-yiri-tupian">
+                  	<div class="yiri-one">
+                  	  <div class="like-yiri-tupian-left">
+                  	  	 <img src="img/46.jpg"/>
+                  	  </div>
+                  	  <div class="like-yiri-tupian-right">
+                  	  	<p class="yiri-p-one">  上海东方明珠+浦江游览+外滩+城隍庙旅游区一日游【可加选杜莎夫人蜡像馆专线，限时特价！】</p>
+                  	  </div>
+                    </div>
+                   	<div class="yiri-one">
+                  	  <div class="like-yiri-tupian-left">
+                  	  	 <img src="img/37.jpg"/>
+                  	  </div>
+                  	  <div class="like-yiri-tupian-right">
+                  	  	<p class="yiri-p-one">  上海东方明珠+浦江游览+外滩+城隍庙旅游区一日游【可加选杜莎夫人蜡像馆专线，限时特价！】</p>
+                  	  </div>
+                    </div>
+                    	<div class="yiri-one">
+                  	  <div class="like-yiri-tupian-left">
+                  	  	 <img src="img/38.jpg"/>
+                  	  </div>
+                  	  <div class="like-yiri-tupian-right">
+                  	  	<p class="yiri-p-one">  上海东方明珠+浦江游览+外滩+城隍庙旅游区一日游【可加选杜莎夫人蜡像馆专线，限时特价！】</p>
+                  	  </div>
+                    </div>
+                    <div class="yiri-one">
+                  	  <div class="like-yiri-tupian-left">
+                  	  	 <img src="img/39.jpg"/>
+                  	  </div>
+                  	  <div class="like-yiri-tupian-right">
+                  	  	<p class="yiri-p-one">  上海东方明珠+浦江游览+外滩+城隍庙旅游区一日游【可加选杜莎夫人蜡像馆专线，限时特价！】</p>
+                  	  </div>
+                    </div>
+                     <div class="yiri-one">
+                  	  <div class="like-yiri-tupian-left">
+                  	  	 <img src="img/47.jpg"/>
+                  	  </div>
+                  	  <div class="like-yiri-tupian-right">
+                  	  	<p class="yiri-p-one">  上海东方明珠+浦江游览+外滩+城隍庙旅游区一日游【可加选杜莎夫人蜡像馆专线，限时特价！】</p>
+                  	  </div>
+                    </div>
+                     <div class="yiri-one">
+                  	  <div class="like-yiri-tupian-left">
+                  	  	 <img src="img/48.jpg"/>
+                  	  </div>
+                  	  <div class="like-yiri-tupian-right">
+                  	  	<p class="yiri-p-one">  上海东方明珠+浦江游览+外滩+城隍庙旅游区一日游【可加选杜莎夫人蜡像馆专线，限时特价！】</p>
+                  	  </div>
+                    </div>
+                     <div class="yiri-one">
+                  	  <div class="like-yiri-tupian-left">
+                  	  	 <img src="img/49.jpg"/>
+                  	  </div>
+                  	  <div class="like-yiri-tupian-right">
+                  	  	<p class="yiri-p-one">  上海东方明珠+浦江游览+外滩+城隍庙旅游区一日游【可加选杜莎夫人蜡像馆专线，限时特价！】</p>
+                  	  </div>
+                    </div>
+                     <div class="yiri-one">
+                  	  <div class="like-yiri-tupian-left">
+                  	  	 <img src="img/50.jpg"/>
+                  	  </div>
+                  	  <div class="like-yiri-tupian-right">
+                  	  	<p class="yiri-p-one">  上海东方明珠+浦江游览+外滩+城隍庙旅游区一日游【可加选杜莎夫人蜡像馆专线，限时特价！】</p>
+                  	  </div>
+                    </div>
+                      <div class="renmen-xia">查看上海全部一日游</div>
+                </div>  		
+                  		
+                  	<div class="like-yiri">
+                  		<div class="like-yiri-title">
+                  			<span>————</span>
+                  			热门特色体验
+                  		<span>————</span></div>
+                  		
+                  <div class="like-yiri-tupian">
+                  	<div class="yiri-one">
+                  	  <div class="like-yiri-tupian-left">
+                  	  	 <img src="img/51.jpg"/>
+                  	  </div>
+                  	  <div class="like-yiri-tupian-right">
+                  	  	<p class="yiri-p-one">美女与野兽音乐剧</p>
+                  	  	<span class="span-one">{{shanghan}}</span>
+                  	 	 	<span class="span-two">4.6分<span class="span-three">已售7.2万+</span></span>
+                  	 	 	<div class="xiaofangkuan"><span class="span-four">{{mingri}}</span>
+                  	 	 	 <span class="span-four">{{qinzi}}</span>
+                  	 	 	 <span class="span-four">{{ziran}}</span>
+                  	 	 	</div>
+                  	 	 	 <p class="span-five">￥<span>38起</span></p>
+                  	  </div>
+                    </div>
+                   	<div class="yiri-one">
+                  	  <div class="like-yiri-tupian-left">
+                  	  	 <img src="img/52.jpg"/>
+                  	  </div>
+                  	  <div class="like-yiri-tupian-right">
+                  	  	<p class="yiri-p-one">上海婴儿车</p>
+                  	  	<span class="span-one">{{shanghan}}</span>
+                  	 	 	<span class="span-two">4.6分<span class="span-three">已售7.2万+</span></span>
+                  	 	 	<div class="xiaofangkuan"><span class="span-four">{{mingri}}</span>
+                  	 	 	 <span class="span-four">{{qinzi}}</span>
+                  	 	 	 <span class="span-four">{{ziran}}</span>
+                  	 	 	</div>
+                  	 	 	 <p class="span-five">￥<span>38起</span></p>
+                  	  </div>
+                    </div>
+                    	<div class="yiri-one">
+                  	  <div class="like-yiri-tupian-left">
+                  	  	 <img src="img/53.jpg"/>
+                  	  </div>
+                  	  <div class="like-yiri-tupian-right">
+                  	  	<p class="yiri-p-one">沈大成 上海特产 嗨皮墨鱼</p>
+                  	  	<span class="span-one">{{shanghan}}</span>
+                  	 	 	<span class="span-two">4.6分<span class="span-three">已售7.2万+</span></span>
+                  	 	 	<div class="xiaofangkuan"><span class="span-four">{{mingri}}</span>
+                  	 	 	 <span class="span-four">{{qinzi}}</span>
+                  	 	 	 <span class="span-four">{{ziran}}</span>
+                  	 	 	</div>
+                  	 	 	 <p class="span-five">￥<span>38起</span></p>
+                  	  </div>
+                    </div>
+                    <div class="yiri-one">
+                  	  <div class="like-yiri-tupian-left">
+                  	  	 <img src="img/54.jpg"/>
+                  	  </div>
+                  	  <div class="like-yiri-tupian-right">
+                  	  		<p class="yiri-p-one">沈大成抹茶团</p>
+                  	  	<span class="span-one">{{shanghan}}</span>
+                  	 	 	<span class="span-two">4.6分<span class="span-three">已售7.2万+</span></span>
+                  	 	 	<div class="xiaofangkuan"><span class="span-four">{{mingri}}</span>
+                  	 	 	 <span class="span-four">{{qinzi}}</span>
+                  	 	 	 <span class="span-four">{{ziran}}</span>
+                  	 	 	</div>
+                  	 	 	 <p class="span-five">￥<span>38起</span></p>
+                  	  </div>
+                    </div>
+                     <div class="yiri-one">
+                  	  <div class="like-yiri-tupian-left">
+                  	  	 <img src="img/55.jpg"/>
+                  	  </div>
+                  	  <div class="like-yiri-tupian-right">
+                  	  	<p class="yiri-p-one">【四川特产】干羊肚菌</p>
+                  	  	<span class="span-one">{{shanghan}}</span>
+                  	 	 	<span class="span-two">4.6分<span class="span-three">已售7.2万+</span></span>
+                  	 	 	<div class="xiaofangkuan"><span class="span-four">{{mingri}}</span>
+                  	 	 	 <span class="span-four">{{qinzi}}</span>
+                  	 	 	 <span class="span-four">{{ziran}}</span>
+                  	 	 	</div>
+                  	 	 	 <p class="span-five">￥<span>38起</span></p>
+                  	  </div>
+                    </div>
+                     <div class="yiri-one">
+                  	  <div class="like-yiri-tupian-left">
+                  	  	 <img src="img/56.jpg"/>
+                  	  </div>
+                  	  <div class="like-yiri-tupian-right">
+                  	  		<p class="yiri-p-one">上海浦东机场T1航站楼</p>
+                  	  	<span class="span-one">{{shanghan}}</span>
+                  	 	 	<span class="span-two">4.6分<span class="span-three">已售7.2万+</span></span>
+                  	 	 	<div class="xiaofangkuan"><span class="span-four">{{mingri}}</span>
+                  	 	 	 <span class="span-four">{{qinzi}}</span>
+                  	 	 	 <span class="span-four">{{ziran}}</span>
+                  	 	 	</div>
+                  	 	 	 <p class="span-five">￥<span>38起</span></p>
+                  	  </div>
+                    </div>
+                     <div class="yiri-one">
+                  	  <div class="like-yiri-tupian-left">
+                  	  	 <img src="img/57.jpg"/>
+                  	  </div>
+                  	  <div class="like-yiri-tupian-right">
+                  	  		<p class="yiri-p-one">DJI/大疆灵眸Osmo pocket</p>
+                  	  	<span class="span-one">{{shanghan}}</span>
+                  	 	 	<span class="span-two">4.6分<span class="span-three">已售7.2万+</span></span>
+                  	 	 	<div class="xiaofangkuan"><span class="span-four">{{mingri}}</span>
+                  	 	 	 <span class="span-four">{{qinzi}}</span>
+                  	 	 	 <span class="span-four">{{ziran}}</span>
+                  	 	 	</div>
+                  	 	 	 <p class="span-five">￥<span>38起</span></p>
+                  	  </div>
+                    </div>
+                     <div class="yiri-one">
+                  	  <div class="like-yiri-tupian-left">
+                  	  	 <img src="img/58.jpg"/>
+                  	  </div>
+                  	  <div class="like-yiri-tupian-right">
+                  	  		<p class="yiri-p-one">武夷山岩茶</p>
+                  	  	<span class="span-one">{{shanghan}}</span>
+                  	 	 	<span class="span-two">4.6分<span class="span-three">已售7.2万+</span></span>
+                  	 	 	<div class="xiaofangkuan"><span class="span-four">{{mingri}}</span>
+                  	 	 	 <span class="span-four">{{qinzi}}</span>
+                  	 	 	 <span class="span-four">{{ziran}}</span>
+                  	 	 	</div>
+                  	 	 	 <p class="span-five">￥<span>38起</span></p>
+                  	  </div>
+                    </div>
+                      <div class="renmen-xia">查看上海全部特色体验</div>
+                    
+                    
+                    
+                    
+                     </div>  			
+                  		
+                  
+                  
+                </div>  			
+                  	</div>
+                  </div>
+
+		   </div>
+             <div class="cebian">
+             	<p class="cebian-img"><img src="img/shoucang.png"/></p>
+             	<p class="cebian-img"><img src="img/liulan.png"/></p>
+             </div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+	<script type="text/javascript" src="js/vue.js"></script>
+	<script type="text/javascript" src="js/lib-flex.js"></script>
+	<script type="text/javascript" src="js/swiper.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+
+</html>
